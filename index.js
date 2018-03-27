@@ -30,9 +30,10 @@ function johnLennonFacts(facts) {
 
   function ilovethebeatles (x) {
   var myarray = [];
+  var i = 0;
    do {
-      array.push(" I love the beatles!");
-      x++;
-  } while (x < 15);
-  return ("I love the beatles!")
+      myarray.push(" I love the beatles!" + [i]);
+      i++;
+  } while (i <= x && x < 15);
+  return myarray;
 }
