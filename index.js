@@ -32,7 +32,7 @@ function johnLennonFacts(facts) {
   var myArray = [];
   var i = 0;
    do {
-      myArray.push('I love the beatles!');
+      myArray.push('I love the Beatles!');
       i++;
   } while (i <= x && x < 15);
   return myArray;
