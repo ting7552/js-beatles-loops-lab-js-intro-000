@@ -37,4 +37,3 @@ function johnLennonFacts(facts) {
   } while (i <= x && x < 15);
   return myArray;
 }
-
